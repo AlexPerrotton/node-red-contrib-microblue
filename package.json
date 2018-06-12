@@ -15,9 +15,9 @@
     "microbit",
     "bluetooth"
   ],
-  "devDependencies":[
+  "devDependencies": {
     "microblue":"0.0.6"
-  ],
+  },
   "author": "Alexandre Perrotton",
   "license": "MIT",
   "bugs": {
