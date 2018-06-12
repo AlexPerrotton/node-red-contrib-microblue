@@ -1,0 +1,66 @@
+
+<script type="text/javascript">
+    RED.nodes.registerType('ReadUart',{
+        category: 'BBC micro bit',
+        color:"#1D92F9",
+        defaults: {
+            name: {value:"ReadUart"},
+        },
+        inputs:0,
+        outputs:1,
+        icon: "ubit.png",
+        label: function() {
+            return this.name||this.host;
+        },
+        labelStyle: function() {
+            return this.name?"node_label_italic":"";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="ReadUart">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i><span>Name</span></label>
+        <input type="text" id="node-input-name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="ReadUart">
+    <p>Micro:bit ReadUart node.</p>
+</script>
+
+
+
+<script type="text/javascript">
+    RED.nodes.registerType('WriteUart',{
+        category: 'BBC micro bit',
+        color:"#1D92F9",
+        defaults: {
+            name: {value:"WriteUart"},
+        },
+        inputs:1,
+        outputs:0,
+        icon: "ubit.png",
+        label: function() {
+            return this.name||this.host;
+        },
+        labelStyle: function() {
+            return this.name?"node_label_italic":"";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="WriteUart">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i><span>Name</span></label>
+        <input type="text" id="node-input-name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="WriteUart">
+    <p>Micro:bit WriteUart node.</p>
+</script>
+
+
+
+
