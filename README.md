@@ -10,7 +10,7 @@ This node-red library is in the early stages so things might change and break. A
 
 ## Prerequisites
 
-It is necessary to paire your device (PC/raspberry/mobile) to the micro:bit without connect it.
+Open at least the uart, accelerometer, magnetometer service on your micro:bit. It is not necessary to pair your micro:bit with your bluetooth device.
 
 ### Linux
 
@@ -26,24 +26,6 @@ sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev
 Make sure ```node``` is on your path, if it's not, some options:
  * symlink ```nodejs``` to ```node```: ```sudo ln -s /usr/bin/nodejs /usr/bin/node```
  * [install Node.js using the NodeSource package](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-
-#### Paire the micro:bit (without graphic solution)
-
-```sh
-bluetoothctl
-
-scan on
-```
-
-Went your micro:bit is discover
-
-```sh
-scan off
-
-pair xx:xx:xx:xx:xx:xx
-
-exit
-```
 
 ## Install
 
