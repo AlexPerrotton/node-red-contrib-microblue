@@ -53,8 +53,8 @@ Note: If you want to send data, please choose a string value.
 ### To Do
 
 - ~~Create node to Read/Write (Uart)~~
-- Add node to Read data from accelerometer
-- Add node to Read data from magnetometer
+- ~~Add node to Read data from accelerometer~~
+- ~~Add node to Read data from magnetometer~~
 - Add node to Read input from the buttons
 - Add node to Read/Write input from the IO pins
 - Add node to Read/Write on the LED matrix
