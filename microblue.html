@@ -62,5 +62,95 @@
 </script>
 
 
+<script type="text/javascript">
+    RED.nodes.registerType('ReadAccel',{
+        category: 'BBC micro bit',
+        color:"#1D92F9",
+        defaults: {
+            name: {value:"ReadAccel"},
+        },
+        inputs:0,
+        outputs:1,
+        icon: "ubit.png",
+        label: function() {
+            return this.name||this.host;
+        },
+        labelStyle: function() {
+            return this.name?"node_label_italic":"";
+        }
+    });
+</script>
 
+<script type="text/x-red" data-template-name="ReadAccel">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i><span>Name</span></label>
+        <input type="text" id="node-input-name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="ReadAccel">
+    <p>Micro:bit ReadAccel node.</p>
+</script>
+
+
+<script type="text/javascript">
+    RED.nodes.registerType('ReadCompass',{
+        category: 'BBC micro bit',
+        color:"#1D92F9",
+        defaults: {
+            name: {value:"ReadCompass"},
+        },
+        inputs:0,
+        outputs:1,
+        icon: "ubit.png",
+        label: function() {
+            return this.name||this.host;
+        },
+        labelStyle: function() {
+            return this.name?"node_label_italic":"";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="ReadCompass">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i><span>Name</span></label>
+        <input type="text" id="node-input-name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="ReadCompass">
+    <p>Micro:bit ReadCompass node.</p>
+</script>
+
+
+<script type="text/javascript">
+    RED.nodes.registerType('Compass_Accel',{
+        category: 'BBC micro bit',
+        color:"#1D92F9",
+        defaults: {
+            name: {value:"Compass_Accel"},
+        },
+        inputs:0,
+        outputs:1,
+        icon: "ubit.png",
+        label: function() {
+            return this.name||this.host;
+        },
+        labelStyle: function() {
+            return this.name?"node_label_italic":"";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="Compass_Accel">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i><span>Name</span></label>
+        <input type="text" id="node-input-name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="Compass_Accel">
+    <p>Micro:bit Compass & Accel node.</p>
+</script>
 
