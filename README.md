@@ -43,6 +43,9 @@ Note: If you want to send data, please choose a string value.
 
 * ReadUart
 * WriteUart
+* ReadAccel
+* ReadCompass
+* Compass_Accel
 
 ### Create at
 <a href="https://www.listic.univ-smb.fr/en/home/" target="_blank"><img src="assets/logo_listic.png" width="20%" height="20%"></a>
